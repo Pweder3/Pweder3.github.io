@@ -1,0 +1,57 @@
+baseurl = "http://www.example.com"
+title = "Pweder3"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Pweder3"
+  info = "Horrible programer"
+  description = "Personal website "
+  keywords = "blog,developer,profile"
+  avatarurl = "images/Profile_Picture.png"
+  #gravatar = "john.doe@example.com"
+
+
+  since = 2024
+
+  enableTwemoji = true
+
+  colorScheme = "dark"
+  hidecolorschemetoggle = true
+
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/Pweder3"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa-brands fa-instagram fa-2x"
+  weight = 3
+  url = ""
+
+# Menu links
+[[menu.main]]
+  name = "Obsidian"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "contact"
+  weight = 2
+  url = "about/"
