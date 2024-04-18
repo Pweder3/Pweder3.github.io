@@ -16,7 +16,7 @@ style = "github-dark"
   info = "Horrible programer"
   description = "Personal website "
   keywords = "blog,developer,profile"
-  avatarurl = "images/Profile_Picture.png"
+  avatarurl = "Images/Profile_Picture.png"
   #gravatar = "john.doe@example.com"
 
 
